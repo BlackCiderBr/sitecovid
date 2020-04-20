@@ -7,13 +7,19 @@ a{
 }
 
 a:hover{
-  color:wheat;
   text-decoration: unset;
+  color: bisque;
 }
 
 #c19{
     font-family: fantasy;
-    color: floralwhite;
+    animation: tittleanim 3s infinite;
+}
+
+@keyframes tittleanim{
+    0% {color: floralwhite}
+    50% {color: palevioletred}
+    100% {color: floralwhite}
 }
 
 #mainheader{
