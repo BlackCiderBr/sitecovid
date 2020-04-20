@@ -7,14 +7,20 @@ a{
 }
 
 a:hover{
-  color: aquamarine;
-  text-decoration: unset;
-}
-
-#c19{
-    font-family: fantasy;
-    color: floralwhite;
-}
+    text-decoration: unset;
+    color: bisque;
+  }
+  
+  #c19{
+      font-family: fantasy;
+      animation: tittleanim 3s infinite;
+  }
+  
+  @keyframes tittleanim{
+      0% {color: floralwhite}
+      50% {color: palevioletred}
+      100% {color: floralwhite}
+  }
 
 #mainheader{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
