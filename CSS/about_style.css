@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;    
+}
+
+#c19{
+    font-family: fantasy;
+    color: floralwhite;
+}
+
+#mainheader{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(177, 64, 64);    
+    border: 7px solid rgb(182, 177, 177);
+    padding: 5px;
+    margin: 5px;
+    color: floralwhite;
+}
+
+#aboutdiv{
+    margin: auto;
+    border-style: outset;
+    text-align: center;
+}
