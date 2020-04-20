@@ -27,7 +27,7 @@ body{
     text-align: center;
 }
 
-#pictittle{
+#pictittle, #art_text_ti{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(177, 64, 64);    
@@ -38,11 +38,11 @@ body{
 }
 
 #mainpic{
-    margin: 29px;
-    width: 95%;
+    margin: 5px;
+    width: 100%;
     border-style: outset;
     text-align: center;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .imgc:hover{
@@ -51,15 +51,15 @@ body{
 
 .imgc:active{  
     color: #424242; 
-      -webkit-transition: all .2s ease-in;
-      -moz-transition: all .2s ease-in;
-      -ms-transition: all .2s ease-in;
-      -o-transition: all .2s ease-in;
-      transition: all .2s ease-in;
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      transition: all .3s ease-in;
       opacity: 1;
-      transform: scale(2);
-      -ms-transform: scale(2); /* IE 9 */
-      -webkit-transform: scale(2); /* Safari and Chrome */   
+      transform: scale(1.5);
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari and Chrome */   
 }
 
 /* Tooltip container */
@@ -108,3 +108,48 @@ body{
     visibility: visible;
     opacity: 1;
   }
+
+  #art_text_parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+ .art_text_div{
+    margin: auto;
+    width: 285px;
+    border-style: outset;
+    text-align: center;
+    /*padding: 10px;*/
+  }
+
+  .art_text_div:hover{
+      /*border-style: inset;*/
+      border-radius: 5px;
+      border: 7px double;
+  }
+
+  #art_vid_parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+ .art_vid_div{
+    margin: auto;
+    width: 285px;
+    border-style: outset;
+    text-align: center;
+    /*padding: 10px;*/
+  }
+
+  .art_vid_div:hover{
+      /*border-style: inset;*/
+      border-radius: 5px;
+      border: 7px double;
+  }
+
