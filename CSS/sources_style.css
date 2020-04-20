@@ -22,11 +22,26 @@ a:hover{
       100% {color: floralwhite}
   }
 
-#mainheader{
+#mainheader, #sourceti{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(177, 64, 64);    
     border: 7px solid rgb(182, 177, 177);
     padding: 5px;
     margin: 5px;
     color: floralwhite;
+}
+
+#sourceti{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#maindiv{
+    margin: auto;
+    width: 30%;
+    border-style: inset;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 28px;
 }
