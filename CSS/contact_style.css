@@ -37,6 +37,8 @@ a:hover{
 
 #bottomdiv{
     font-family: monospace;
+    margin-top: 5px;
+    padding: 2px;
     text-align: center;
     position: relative; 
     background:gray; 
