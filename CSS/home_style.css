@@ -177,3 +177,10 @@ a:hover{
       border: 7px double;
   }
 
+  #bottomdiv{
+    text-align: center;
+    position: relative; 
+    background:gray; 
+    width:100%;
+    bottom:0;
+}

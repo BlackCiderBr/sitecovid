@@ -34,3 +34,12 @@ a:hover{
 #forms{
     text-align: center;
 }
+
+#bottomdiv{
+    text-align: center;
+    position: relative; 
+    background:gray; 
+    width:100%;
+    bottom:0;
+}
+
