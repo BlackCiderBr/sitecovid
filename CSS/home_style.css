@@ -52,6 +52,15 @@ a:hover{
     color: white;
 }
 
+#imagetip{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
 #mainpic{
     margin: 5px;
     width: 100%;
